@@ -1,0 +1,57 @@
+
+/*
+ formule à mettre à chaque début de travail pour éviter du margin et du padding par défaut
+manque la font est la taille du texte
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    width: auto;
+    max-height: 100px;
+}
+/*
+image de l'arrière plan
+ */
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    }
+/*
+l'arriere plan du coté tableau
+ */
+.ListeLivre
+{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+/*
+l'arriere plan du formulaire
+ */
+.NouveauLivre {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+/*
+Couleur de fond verte pour les champs valides
+ */
+
+input:valid {
+    background: #c8e6c9;
+}
+/*
+Couleur de fond rouge pour les champs non valides
+ */
+input:invalid {
+    background: #ffcdd2;
+}
